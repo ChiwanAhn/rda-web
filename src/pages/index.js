@@ -79,7 +79,7 @@ A to Z, 이 모든 것이 RDA에서 가능합니다.
 
       <section className={styles.fullHeight}>
         <StaticImage className={styles.bg} src={'../images/bg.svg'} />
-        <div className={styles.overlineText}>You can make it real</div>
+        <OverlineText>You can make it real</OverlineText>
         <h2>WE ARE</h2>
         <h2>WORKING</h2>
         <div className={styles.row}>
