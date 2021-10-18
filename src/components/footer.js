@@ -14,17 +14,7 @@ const Footer = () => {
     }
   `);
 
-  return (
-    <footer className={styles.footer}>
-      <p>
-        Created by{' '}
-        <a href="https://safdarjamal.github.io">
-          {data.site.siteMetadata.author}
-        </a>{' '}
-        © 2020
-      </p>
-    </footer>
-  );
+  return <footer className={styles.footer}></footer>;
 };
 
 export default Footer;

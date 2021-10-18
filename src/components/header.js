@@ -16,11 +16,6 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <h1>
-        <Link className={styles.title} to="/">
-          {data.site.siteMetadata.title}
-        </Link>
-      </h1>
       <nav>
         <ul className={styles.navList}>
           <li>
@@ -36,27 +31,27 @@ const Header = () => {
             <Link
               className={styles.navItem}
               activeClassName={styles.activeNavItem}
-              to="/about"
+              to="/#about"
             >
-              About
+              ABOUT
             </Link>
           </li>
           <li>
             <Link
               className={styles.navItem}
               activeClassName={styles.activeNavItem}
-              to="/blog"
+              to="/#program"
             >
-              Blog
+              PROGRAM
             </Link>
           </li>
           <li>
             <Link
               className={styles.navItem}
               activeClassName={styles.activeNavItem}
-              to="/contact"
+              to="/#trial"
             >
-              Contact
+              TRIAL
             </Link>
           </li>
         </ul>

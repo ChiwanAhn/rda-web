@@ -3,7 +3,7 @@ require('dotenv').config();
 module.exports = {
   siteMetadata: {
     author: 'Safdar Jamal',
-    title: 'Full-Stack Bootcamp;',
+    title: 'RDA Toronto',
     description:
       'A minimal blogging site built with Gatsby using Contentful and hosted on Netlify.',
   },
