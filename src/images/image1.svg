@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="261" height="264" viewBox="0 0 261 264">
+  <defs>
+    <filter id="Rectangle_466" x="0" y="0" width="261" height="264" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_material-supervisor-account" x="25.766" y="90.715" width="208.268" height="150.288" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_964" data-name="Group 964" transform="translate(-3156 -2280)">
+    <g id="Component_55_2" data-name="Component 55 – 2" transform="translate(3165 2286)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_466)">
+        <rect id="Rectangle_466-2" data-name="Rectangle 466" width="243" height="246" rx="19" transform="translate(9 6)" fill="#fff" opacity="0.999"/>
+      </g>
+      <g id="Icon_material-supervisor-account-2" data-name="Icon material-supervisor-account" transform="translate(24.266 87.215)">
+        <g transform="matrix(1, 0, 0, 1, -33.27, -93.21)" filter="url(#Icon_material-supervisor-account)">
+          <path id="Icon_material-supervisor-account-3" data-name="Icon material-supervisor-account" d="M143.119,75.144a24.159,24.159,0,1,0-24.159-24.159A24.085,24.085,0,0,0,143.119,75.144ZM70.644,65.48a28.99,28.99,0,1,0-28.99-28.99A28.869,28.869,0,0,0,70.644,65.48Zm72.476,28.99c-17.684,0-53.149,8.89-53.149,26.574v21.743h106.3V121.045C196.268,103.361,160.8,94.471,143.119,94.471ZM70.644,84.807C48.128,84.807,3,96.113,3,118.629v24.159H70.644V121.045c0-8.214,3.189-22.612,22.9-33.532A118.7,118.7,0,0,0,70.644,84.807Z" transform="translate(30.27 85.71)" fill="#5349ab"/>
+        </g>
+      </g>
+      <path id="Icon_material-lightbulb-outline" data-name="Icon material-lightbulb-outline" d="M17.556,50.764a2.521,2.521,0,0,0,2.514,2.514H30.125a2.521,2.521,0,0,0,2.514-2.514V48.25H17.556ZM25.1,3A17.59,17.59,0,0,0,15.042,35.027v5.681a2.521,2.521,0,0,0,2.514,2.514H32.639a2.521,2.521,0,0,0,2.514-2.514V35.027A17.59,17.59,0,0,0,25.1,3Zm7.165,27.9-2.137,1.508v5.782H20.069V32.412L17.933,30.9a12.569,12.569,0,1,1,14.329,0Z" transform="translate(12.219 23.738)" fill="#5349ab"/>
+    </g>
+  </g>
+</svg>

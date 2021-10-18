@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './video.module.scss';
+import styled from 'styled-components';
 
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
-  <div className={styles.video}>
+  <VideoContainer>
     <video
       src={videoSrcURL}
       title={videoTitle}
@@ -14,7 +14,15 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
       autoplay=""
       frameborder="0"
       scrolling="no"
+      loop
     />
-  </div>
+  </VideoContainer>
 );
 export default Video;
+
+const VideoContainer = styled.div`
+  width: 100%;
+  max-width: 1780px;
+  height: 100%;
+  margin: auto;
+`;
